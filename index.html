@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Retos JavaScript — Cargador Único</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;max-width:880px;margin:40px auto;padding:0 16px;line-height:1.55}
+    h1{margin:.2rem 0 0.6rem}
+    .card{border:1px solid #e2e8f0;border-radius:12px;padding:16px;margin:12px 0;background:#fff0}
+    code{background:#f6f8fa;padding:2px 6px;border-radius:6px}
+    ul{margin:.25rem 0 .5rem 1.25rem}
+    .hint{font-size:.95rem;color:#555}
+    .files{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px;list-style:disc;padding-left:1.25rem}
+    .files li{margin-left:1rem}
+    .foot{margin-top:22px;color:#666;font-size:.92rem}
+    @media (prefers-color-scheme: dark){
+      body{background:#111;color:#eaeaea}
+      .card{border-color:#2a2a2a}
+      code{background:#1a1a1a}
+      .hint{color:#aaa}
+      .foot{color:#aaa}
+    }
+  </style>
 </head>
 <body>
-    <script src="scripts/frasesPlagiadas.js"></script>
+  <h1>Retos JavaScript — Cargador único</h1>
+  <div class="card">
+    <p><strong>Cómo usar:</strong> este archivo carga <em>un</em> reto a la vez. <br>Solo debes <b>cambiar manualmente</b> el <code>src</code> de la etiqueta <code>&lt;script id="reto"&gt;</code> al nombre del archivo JS del reto que quieras probar.</p>
+    <p class="hint">Ejemplos de archivos JS válidos (colócalos en la <b>misma carpeta</b>):</p>
+    <ul class="files">
+      <li><code>arkanus.js</code> — El códice de Arkanus</li>
+      <li><code>comprometidos.js</code> — Archivos comprometidos</li>
+      <li><code>plagio.js</code> — Frases plagiadas</li>
+      <li><code>frutas.js</code> — Frutas envasadas</li>
+      <li><code>habilidades.js</code> — Habilidades compatibles</li>
+      <li><code>portal.js</code> — Puertas del portal temporal</li>
+      <li><code>anagramas.js</code> — Anagramas</li>
+    </ul>
+    <p class="hint">Los scripts pedirán datos con <code>prompt</code> y mostrarán resultados en <b>alert</b> y <b>consola</b> (F12).</p>
+  </div>
+
+ 
+  <script id="reto" src="scripts/arkanus.js"></script>
+
+  <p class="foot">Tip trainer favorito : si al abrir la página no ves prompts, revisa la consola del navegador (F12) por errores de ruta o nombre del archivo.</p>
 </body>
 </html>

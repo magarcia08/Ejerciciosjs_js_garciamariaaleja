@@ -107,7 +107,7 @@
       console.log("Entrada de logs inválida:", logsRaw);
     } else {
       var result = getCompromisedFiles(lastSafe, parsedLogs);
-      alert("✅ Archivos comprometidos: " + (result.length ? result.join(", ") : "Ninguno"));
+      alert(" Archivos comprometidos: " + (result.length ? result.join(", ") : "Ninguno"));
       console.log(">>> Interactivo <<<");
       console.log("lastSafeDownload:", lastSafe);
       console.log("droneLogs:", parsedLogs);
