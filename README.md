@@ -5,7 +5,7 @@ Cada sección incluye **reglas**, **uso**, y un **snippet JS** autocontenible.
 
 ---
 
-# Enlace https://www.netlify.com/: https://dancing-medovik-1b5f1f.netlify.app/
+# Enlace netlify: https://dancing-medovik-1b5f1f.netlify.app/
 
 
 ## Índice
