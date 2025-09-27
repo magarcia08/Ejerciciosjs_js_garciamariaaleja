@@ -5,6 +5,9 @@ Cada sección incluye **reglas**, **uso**, y un **snippet JS** autocontenible.
 
 ---
 
+# Enlace https://www.netlify.com/: https://dancing-medovik-1b5f1f.netlify.app/
+
+
 ## Índice
 - [🧙 El códice de Arkanus (decodeSpell)](#-el-códice-de-arkanus-decodespell)
 - [🤖 Archivos comprometidos (getCompromisedFiles)](#-archivos-comprometidos-getcompromisedfiles)
